@@ -1,0 +1,50 @@
+*{
+    text-decoration: none;
+    
+}
+
+body{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+                                              /* header part style */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+/* router part */
+.routing{
+    display: flex;
+    gap: 60px;
+   
+    font-weight: 400;
+
+}
+.routing a{
+    color: black;
+    font-size: 20px;
+}
+/* button part */
+.button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+padding-left: 46px;
+padding-right: 46px;
+padding-top: 16px;
+padding-bottom: 16px;
+border-radius: 12px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.button img{
+    position: absolute;
+    left: 134px;
+   
+}
