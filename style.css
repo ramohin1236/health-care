@@ -232,10 +232,109 @@ cursor: pointer;
 .what{
     font-size: 40px;
     font-weight: 900;
+    color: #020043;
 
 }
 
 .solution-group-image{
     display: flex;
     gap: 200px;
+}
+
+                                          /* freequently ask question */
+.freequently{
+    margin-top: 100px;
+}
+.freequently button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+
+}
+
+.asked{
+font-size: 40px;
+color: #020043;
+font-weight: 600;
+}
+.what-you{
+    font-size: 20px;
+    color: #22241B;
+ 
+}
+
+.our-office{
+    font-size: 14px;
+    color:  #343268;
+    width: 1011px;
+    height: 47px;
+    font-weight: 400;
+}
+
+.banner img{
+    margin-top: 100px;
+    width: 105rem;
+}
+
+/* accordion */
+.accordin-first{
+    display: flex;
+    width: 1160px;
+    justify-content: space-between;
+    height: 60px;
+    border: 1px solid #dddce8;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 50px;
+    margin-top: 20px;
+}
+.accordin-first p{
+    font-size: 20px;
+    color: #343268;
+    font-weight: 600;
+    padding: 10px;
+}
+.accordin-first img{
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+}
+
+                                   /* footer */
+footer{
+    width: 1799px;
+    height: 460px;
+    background-color: #020043;
+     margin-left: -80px;
+     margin-top: 200px;
+}
+.footer-group{
+    display: flex;
+  justify-content: space-between;
+  padding: 130px;
+}
+.icon-group{
+
+    color: white;
+}
+.icon-a a{
+    color: white ;
+    display: flex;
+    margin-top: 20px;
+}
+.icon-b a{
+    color: white ;
+    display: flex;
+    margin-top: 20px;
+}
+
+.icon-last p{
+    color: white;
+}
+.social-icon{
+   display: flex;
+   gap: 12px;
+   align-items: center;
 }
